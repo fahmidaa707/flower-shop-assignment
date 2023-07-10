@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
 }
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -10,17 +11,41 @@ body {
 .top {
     display: flex;
     align-items: center;
+    padding: 10px 170px 0px 200px;
 }
 
 .banner {
-    
+
     background: rgba(229, 84, 115, 0.10);
 }
-.pic{
+
+
+.pic {
     width: 460px;
     background-position: bottom right;
 }
-content{
-    margin: 200px;
-    padding: 150px 200px;
+
+.heading {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    width: 408px;
+    padding-bottom: 20px;
+}
+
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 700px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.shop-now {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 700;
 }
