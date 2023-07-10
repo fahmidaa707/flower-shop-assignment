@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    
+    background: rgba(229, 84, 115, 0.10);
+}
+.pic{
+    width: 460px;
+    background-position: bottom right;
+}
+content{
+    margin: 200px;
+    padding: 150px 200px;
+}
