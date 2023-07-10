@@ -4,21 +4,23 @@
     border: 0;
 }
 
-body {
+/* header style */
+.body {
     font-family: 'Open Sans', sans-serif;
+    
+    
 }
 
 .top {
     display: flex;
     align-items: center;
-    padding: 10px 170px 0px 200px;
+    padding: 40px 170px 0px 170px;
 }
 
 .banner {
 
     background: rgba(229, 84, 115, 0.10);
 }
-
 
 .pic {
     width: 460px;
@@ -27,9 +29,9 @@ body {
 
 .heading {
     color: #272727;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 800;
-    width: 408px;
+    width: 508px;
     padding-bottom: 20px;
 }
 
@@ -42,10 +44,82 @@ body {
 }
 
 .shop-now {
-    border-radius: 8px;
-    background: #E55473;
-    padding: 20px 43px;
-    gap: 10px;
+    color: #FFF;
     font-size: 20px;
     font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 13px 22px;
+}
+
+/* main style */
+.title-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 130px;
+
+}
+
+.title-discription {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    padding: 0px 363px;
+
+}
+
+.flowers {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 20px 100px;
+    width: 464px;
+    height: 538px;
+   
+
+}
+
+.full {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    
+    padding: 30px 30px 0px 30px;
+    width: 300px;
+  height: 370px;
+}
+
+.fulll {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 30px;
+    width: 300px;
+  height: 343px;
+}
+
+.fullll {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 30px 30px 0px 30px;
+    width: 300px;
+  height: 370px;
+}
+.ful >p{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
+.hot{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+padding: 40px 100px;
+text-align: center;
 }
